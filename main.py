@@ -24,7 +24,7 @@ while is_working:
         ball_speed [1] = - ball_speed[1]
         change_color = True
         
-    if bal_rect.right >= width or bal_rect.left <ё=0:
+    if bal_rect.right >= width or bal_rect.left <=0:
         ball_speed [0] = - ball_speed[0]
         change_color = True
     if change_color: 
